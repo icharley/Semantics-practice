@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantic HTML Example</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+        padding: 20px;
+      }
+      header,
+      nav,
+      section,
+      article,
+      aside,
+      footer {
+        padding: 20px;
+        margin: 10px;
+        border-radius: 5px;
+      }
+      header {
+        background: #333;
+        color: white;
+        text-align: center;
+        font-size: 24px;
+      }
+      nav {
+        background: #555;
+        color: white;
+        text-align: center;
+      }
+      nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      main {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+      section {
+        flex: 2;
+        background: #f4f4f4;
+      }
+      article {
+        background: #ddd;
+        padding: 15px;
+        border-left: 5px solid #333;
+      }
+
+      article a {
+        text-decoration: none;
+      }
+      aside {
+        flex: 1;
+        background: #eee;
+      }
+      footer {
+        background: #222;
+        color: white;
+        text-align: center;
+        padding: 10px;
+      }
+      figure {
+        text-align: center;
+        margin: 10px 0;
+      }
+      figcaption {
+        font-style: italic;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <header>My Awesome Website</header>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <main>
+      <section>
+        <h2>Welcome to My Website</h2>
+        <p>
+          This is an example of a well-structured HTML page using semantic tags.
+        </p>
+
+        <article>
+          <a href="">
+            <h3>Latest Blog Post</h3>
+            <p>
+              This article explains the importance of semantic HTML and how it
+              helps in SEO and accessibility.
+            </p>
+          </a>
+        </article>
+
+        <figure>
+          <img
+            src="https://placehold.co/1148x270/000000/FFFFFF.svg"
+            alt="Placeholder Image"
+          />
+          <figcaption>
+            Example of an image with a caption using the
+            <code>&lt;figure&gt;</code> and
+            <code>&lt;figcaption&gt;</code> tags.
+          </figcaption>
+        </figure>
+      </section>
+
+      <aside>
+        <h3>Related Links</h3>
+        <ul>
+          <li><a href="#">HTML5 Guide</a></li>
+          <li><a href="#">CSS Basics</a></li>
+          <li><a href="#">SEO Optimization</a></li>
+        </ul>
+      </aside>
+    </main>
+
+    <footer>&copy; 2025 My Awesome Website | All Rights Reserved</footer>
+  </body>
+</html>
